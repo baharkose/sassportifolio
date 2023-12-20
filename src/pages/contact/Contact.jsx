@@ -1,9 +1,12 @@
 import React from "react";
-import "../../components/Footer/Footer.scss"
-import "./Contact.scss"
+import "../../components/Footer/Footer.scss";
+import "./Contact.scss";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from  "../../components/Footer/Footer"
 const Contact = () => {
   return (
-    <div>
+    <div class="contact-bgImg-container">
+      <Navbar/>
       {/* CONTACT MAIN */}
       <main className="contact">
         <h2>Contact Me ...</h2>
@@ -26,21 +29,7 @@ const Contact = () => {
       </main>
       {/* CONTACT FOOTER */}
       <footer className="middle">
-        <div className="social-icons">
-          <a href="#">
-            <i className="fab fa-twitter fa-2x" />
-          </a>
-          <a href="#">
-            <i className="fab fa-facebook fa-2x" />
-          </a>
-          <a href="#">
-            <i className="fab fa-instagram fa-2x" />
-          </a>
-          <a href="#">
-            <i className="fab fa-github fa-2x" />
-          </a>
-        </div>
-        <div className="copyright">© Copyright 2023</div>
+       <Footer/>
       </footer>
     </div>
   );
