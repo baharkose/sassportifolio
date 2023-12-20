@@ -1,5 +1,6 @@
 import React from "react";
-
+import "../../components/Footer/Footer.scss"
+import "./Contact.scss"
 const Contact = () => {
   return (
     <div>
