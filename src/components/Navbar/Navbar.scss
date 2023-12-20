@@ -5,6 +5,8 @@
     // border: 2px solid red;
     height: 10vh;
     padding: 1rem;
+    padding-top: 2rem;
+   
 
     &__list{
         text-align: right;
@@ -12,10 +14,12 @@
     &__item{
         display: inline;
         padding: 1rem;
+    
+    
     }
 
     &__link{
-        font-size: 1rem;
+        font-size: 1.6rem;
         text-transform: uppercase;
         font-weight: 500;
         font-family: $font-family;

@@ -1,8 +1,9 @@
 import React from "react";
+import "./Home.scss"
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-bgImg-container">
       {/* HOME MAIN */}
       <main className="home">
         <h2>Hi! My Name Is</h2>
